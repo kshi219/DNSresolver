@@ -3,7 +3,7 @@
 
 
 ## Description
-This is a command line tool for obtaining an IP address for a web domain name via the DNS protocol. Given a domain name and a the address to a nearby root name server, this tool will query, interpret and re-query based on successive responses from various name servers until an authoritative response is obtained as shown in the gif above. 
+This is a command line tool for obtaining an IP address for a web domain name via the DNS protocol. Given a domain name and a the address to a nearby root name server, this tool will query, interpret and re-query based on successive responses from various name servers until an authoritative response is obtained as shown in the gif above. The resulting IP address can be plugged into web browser to contact the desired website.
 
 ### make and run with:
 `java -jar DNSlookup.jar rootDNS name [-t] `
